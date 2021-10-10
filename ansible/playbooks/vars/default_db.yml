@@ -1,4 +1,5 @@
 ---
+ansible_os_family: "Debian"
 mysql_root_password: !vault |
           $ANSIBLE_VAULT;1.1;AES256
           66373630656230326261353834373231636163643562643662343961653961636130376639386362
