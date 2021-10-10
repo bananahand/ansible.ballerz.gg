@@ -1,6 +1,5 @@
 ---
-app_user: "www-data"
-http_host: "ansible.ballerz.gg"
-http_conf: "ansible.ballerz.gg.conf"
-http_port: "80"
-disable_default: true
+ansible_os_family: "Debian"
+haproxy_backend_servers:
+  - name: wb01
+    address: 10.120.0.7:80

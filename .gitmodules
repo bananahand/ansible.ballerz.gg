@@ -7,3 +7,9 @@
 [submodule "playbooks/roles/geerlingguy.haproxy"]
 	path = playbooks/roles/geerlingguy.haproxy
 	url = https://github.com/geerlingguy/ansible-role-haproxy.git
+[submodule "playbooks/roles/geerlingguy.php"]
+	path = playbooks/roles/geerlingguy.php
+	url = https://github.com/geerlingguy/ansible-role-php.git
+[submodule "playbooks/roles/geerlingguy.apache"]
+	path = playbooks/roles/geerlingguy.apache
+	url = https://github.com/geerlingguy/ansible-role-apache.git

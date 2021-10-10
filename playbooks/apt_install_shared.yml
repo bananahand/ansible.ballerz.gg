@@ -11,5 +11,6 @@
       - vim
       - netcat
       - pwgen
+      - net-tools
       state: present
       update_cache: yes
