@@ -4,3 +4,6 @@
 [submodule "ansible/playbooks/roles/geerlingguy.redis"]
 	path = ansible/playbooks/roles/geerlingguy.redis
 	url = https://github.com/geerlingguy/ansible-role-redis.git
+[submodule "ansible/playbooks/roles/geerlingguy.haproxy"]
+	path = ansible/playbooks/roles/geerlingguy.haproxy
+	url = https://github.com/geerlingguy/ansible-role-haproxy.git

@@ -1,0 +1,7 @@
+---
+- import_playbook: apt_install_shared.yml
+- import_playbook: apt_update_all.yml
+- import_playbook: install_db.yml
+- import_playbook: install_mp.yml
+- import_playbook: install_wb.yml
+- import_playbook: install_lb.yml 
