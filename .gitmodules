@@ -1,9 +1,9 @@
-[submodule "ansible/playbooks/roles/geerlingguy.mysql"]
-	path = ansible/playbooks/roles/geerlingguy.mysql
+[submodule "playbooks/roles/geerlingguy.mysql"]
+	path = playbooks/roles/geerlingguy.mysql
 	url = https://github.com/geerlingguy/ansible-role-mysql.git
-[submodule "ansible/playbooks/roles/geerlingguy.redis"]
-	path = ansible/playbooks/roles/geerlingguy.redis
+[submodule "playbooks/roles/geerlingguy.redis"]
+	path = playbooks/roles/geerlingguy.redis
 	url = https://github.com/geerlingguy/ansible-role-redis.git
-[submodule "ansible/playbooks/roles/geerlingguy.haproxy"]
-	path = ansible/playbooks/roles/geerlingguy.haproxy
+[submodule "playbooks/roles/geerlingguy.haproxy"]
+	path = playbooks/roles/geerlingguy.haproxy
 	url = https://github.com/geerlingguy/ansible-role-haproxy.git
