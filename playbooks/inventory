@@ -9,3 +9,6 @@ wb01 ansible_python_interpreter=/usr/bin/python3
 
 [mp]
 mp01 ansible_python_interpreter=/usr/bin/python3
+
+[vc]
+vc01 ansible_python_interpreter=/usr/bin/python3

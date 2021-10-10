@@ -1,5 +1,5 @@
 ---
-- name: Install loadbalancer server packages
+- name: Install load balancer packages
   hosts: lb
   vars_files:
     - vars/default_lb.yml

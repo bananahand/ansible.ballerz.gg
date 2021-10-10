@@ -1,0 +1,7 @@
+---
+- name: Install varnish cache server packages
+  hosts: vc
+  vars_files:
+    - vars/default_vc.yml
+  roles:
+    - role: geerlingguy.varnish
