@@ -1,0 +1,3 @@
+[submodule "ansible/playbooks/roles/geerlingguy.mysql"]
+	path = ansible/playbooks/roles/geerlingguy.mysql
+	url = https://github.com/geerlingguy/ansible-role-mysql.git
