@@ -1,0 +1,7 @@
+---
+- name: Install multi-purpose server packages
+  hosts: mp
+  vars_files:
+    - vars/default_mp.yml
+  roles:
+    - role: geerlingguy.redis

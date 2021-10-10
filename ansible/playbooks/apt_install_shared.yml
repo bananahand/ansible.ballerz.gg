@@ -1,0 +1,15 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Install shared packages
+    apt:
+      name:
+      - python3
+      - htop
+      - atop
+      - vim
+      - netcat
+      - pwgen
+      state: present
+      update_cache: yes

@@ -1,0 +1,7 @@
+---
+- name: Install database server packages
+  hosts: db
+  vars_files:
+    - vars/default_db.yml
+  roles:
+    - role: geerlingguy.mysql

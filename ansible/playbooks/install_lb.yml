@@ -1,8 +1,8 @@
 ---
-- name: Install webserver packages
-  hosts: wb
+- name: Install loadbalancer packages
+  hosts: lb
   vars_files:
-    - vars/default_wb.yml
+    - vars/default_lb.yml
 
   tasks:
   - name: Install software-properties-common

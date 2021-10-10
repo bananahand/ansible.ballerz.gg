@@ -1,11 +1,11 @@
 [lb]
-lb01
+lb01 ansible_python_interpreter=/usr/bin/python3
 
 [db]
-db01
+db01 ansible_python_interpreter=/usr/bin/python3
 
 [wb]
-wb01
+wb01 ansible_python_interpreter=/usr/bin/python3
 
 [mp]
-mp01
+mp01 ansible_python_interpreter=/usr/bin/python3
