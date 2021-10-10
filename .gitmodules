@@ -13,3 +13,6 @@
 [submodule "playbooks/roles/geerlingguy.apache"]
 	path = playbooks/roles/geerlingguy.apache
 	url = https://github.com/geerlingguy/ansible-role-apache.git
+[submodule "playbooks/roles/geerlingguy.varnish"]
+	path = playbooks/roles/geerlingguy.varnish
+	url = https://github.com/geerlingguy/ansible-role-varnish.git
