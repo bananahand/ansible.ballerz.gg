@@ -8,8 +8,8 @@ apache_listen_port: 80
 apache_listen_port_ssl: 443
 
 apache_create_vhosts: true
-apache_vhosts_filename: "vhosts.conf"
-apache_vhosts_template: "vhosts.conf.j2"
+apache_vhosts_filename: "ansible.ballerz.gg.conf"
+apache_vhosts_template: "ansible.ballerz.gg.conf.j2"
 
 # On Debian/Ubuntu, a default virtualhost is included in Apache's configuration.
 # Set this to `true` to remove that default.
@@ -20,7 +20,8 @@ apache_global_vhost_settings: |
 apache_vhosts:
   # Additional properties:
   # 'serveradmin, serveralias, allow_override, options, extra_parameters'.
-  - servername: "local.dev"
+  - servername: "ansible.ballerz.gg"
+  - serveralias: "www.ansible.ballerz.gg"
     documentroot: "/var/www/html"
 
 apache_allow_override: "All"
@@ -81,7 +82,7 @@ php_install_recommends: true
 php_enable_webserver: true
 
 # PHP-FPM configuration.
-php_enable_php_fpm: false
+php_enable_php_fpm: true
 php_fpm_state: started
 php_fpm_handler_state: restarted
 php_fpm_enabled_on_boot: true
