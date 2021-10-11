@@ -1,6 +1,9 @@
 ---
 ansible_os_family: "Debian"
 
+http_port: 80
+http_host: 0.0.0.0
+
 apache_enablerepo: ""
 
 apache_listen_ip: "*"
@@ -9,7 +12,7 @@ apache_listen_port_ssl: 443
 
 apache_create_vhosts: true
 apache_vhosts_filename: "ansible.ballerz.gg.conf"
-apache_vhosts_template: "ansible.ballerz.gg.conf.j2"
+apache_vhosts_template: "../../../files/ansible.ballerz.gg.conf.j2"
 
 # On Debian/Ubuntu, a default virtualhost is included in Apache's configuration.
 # Set this to `true` to remove that default.
