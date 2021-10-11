@@ -19,7 +19,7 @@ haproxy_backend_balance_method: 'roundrobin'
 haproxy_backend_httpchk: 'HEAD / HTTP/1.1\r\nHost:localhost'
 
 # List of backend servers.
-haproxy_backend_servers: []
+haproxy_backend_servers:
   - name: wb01
     address: 10.120.0.7:80
 # - name: app2
