@@ -4,13 +4,13 @@
   tasks:
   - name: Install shared packages
     apt:
-      name:
-      - python3
-      - htop
-      - atop
-      - vim
-      - netcat
-      - pwgen
-      - net-tools
-      state: present
-      update_cache: yes
+        name:
+            - python3
+            - htop
+            - atop
+            - vim
+            - netcat
+            - pwgen
+            - net-tools
+        state: present
+        update_cache: true
